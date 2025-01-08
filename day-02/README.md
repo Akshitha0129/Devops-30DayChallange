@@ -3,6 +3,8 @@
 Creating a Game Day Notification solution using AWS Lambda, Amazon SNS, and Amazon EventBridge with external APIs.
 Building a Game Day Notification solution using AWS serverless services such as AWS Lambda, Amazon SNS, and Amazon EventBridge, while integrating external APIs to deliver notifications effectively.
 
+<img width="739" alt="Screenshot 2025-01-08 at 2 40 09 AM" src="https://github.com/user-attachments/assets/b6e8961d-cc00-4d8f-a5ba-f0eb8da3737c" />
+
 Solution Architecture
 
 1. AWS Lambda:
@@ -69,8 +71,13 @@ SNS_TOPIC_ARN: ARN of the SNS topic created earlier.
 Create a rule in EventBridge with a scheduled cron expression for hourly updates.
 Set the target as the Lambda function.
 
-8. Test the System
+<img width="460" alt="Screenshot 2025-01-08 at 2 27 31 AM" src="https://github.com/user-attachments/assets/7d839e85-7d36-45c4-bdf0-a6168981401d" />
+
+9. Test the System
 Trigger the Lambda function manually.
 Check for notifications in email or SMS.
 Debug errors using CloudWatch Logs.
+
+<img width="485" alt="Screenshot 2025-01-08 at 2 58 56 AM" src="https://github.com/user-attachments/assets/8ac59d6a-97e1-40a9-9f35-437f61bd31f7" />
+
 
