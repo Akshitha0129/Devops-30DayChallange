@@ -1,4 +1,4 @@
-# 30-Day DevOps Challenge | Day 1
+# 30-Day DevOps Challenge | Day 2
 
 Creating a Game Day Notification solution using AWS Lambda, Amazon SNS, and Amazon EventBridge with external APIs.
 Building a Game Day Notification solution using AWS serverless services such as AWS Lambda, Amazon SNS, and Amazon EventBridge, while integrating external APIs to deliver notifications effectively.
